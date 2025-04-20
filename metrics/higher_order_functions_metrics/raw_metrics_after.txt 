@@ -1,0 +1,264 @@
+app/models/config.py
+    LOC: 276
+    LLOC: 152
+    SLOC: 171
+    Comments: 17
+    Single comments: 16
+    Multi: 38
+    Blank: 51
+    - Comment Stats
+        (C % L): 6%
+        (C % S): 10%
+        (C + M % L): 20%
+app/models/__init__.py
+    LOC: 0
+    LLOC: 0
+    SLOC: 0
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 0
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+app/models/g_classes.py
+    LOC: 48
+    LLOC: 25
+    SLOC: 26
+    Comments: 0
+    Single comments: 0
+    Multi: 13
+    Blank: 9
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 27%
+app/models/endpoint.py
+    LOC: 22
+    LLOC: 17
+    SLOC: 18
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 4
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+app/utils/misc.py
+    LOC: 138
+    LLOC: 80
+    SLOC: 89
+    Comments: 5
+    Single comments: 5
+    Multi: 7
+    Blank: 37
+    - Comment Stats
+        (C % L): 4%
+        (C % S): 6%
+        (C + M % L): 9%
+app/utils/results.py
+    LOC: 467
+    LLOC: 217
+    SLOC: 251
+    Comments: 47
+    Single comments: 41
+    Multi: 79
+    Blank: 96
+    - Comment Stats
+        (C % L): 10%
+        (C % S): 19%
+        (C + M % L): 27%
+app/utils/session.py
+    LOC: 39
+    LLOC: 12
+    SLOC: 10
+    Comments: 2
+    Single comments: 2
+    Multi: 15
+    Blank: 12
+    - Comment Stats
+        (C % L): 5%
+        (C % S): 20%
+        (C + M % L): 44%
+app/utils/__init__.py
+    LOC: 0
+    LLOC: 0
+    SLOC: 0
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 0
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+app/utils/bangs.py
+    LOC: 151
+    LLOC: 69
+    SLOC: 71
+    Comments: 14
+    Single comments: 14
+    Multi: 27
+    Blank: 39
+    - Comment Stats
+        (C % L): 9%
+        (C % S): 20%
+        (C + M % L): 27%
+app/utils/widgets.py
+    LOC: 71
+    LLOC: 38
+    SLOC: 36
+    Comments: 7
+    Single comments: 7
+    Multi: 15
+    Blank: 13
+    - Comment Stats
+        (C % L): 10%
+        (C % S): 19%
+        (C + M % L): 31%
+app/utils/search.py
+    LOC: 193
+    LLOC: 88
+    SLOC: 102
+    Comments: 18
+    Single comments: 18
+    Multi: 32
+    Blank: 41
+    - Comment Stats
+        (C % L): 9%
+        (C % S): 18%
+        (C + M % L): 26%
+app/__init__.py
+    LOC: 199
+    LLOC: 107
+    SLOC: 148
+    Comments: 25
+    Single comments: 23
+    Multi: 0
+    Blank: 28
+    - Comment Stats
+        (C % L): 13%
+        (C % S): 17%
+        (C + M % L): 13%
+app/__main__.py
+    LOC: 3
+    LLOC: 2
+    SLOC: 2
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 1
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+app/filter.py
+    LOC: 760
+    LLOC: 411
+    SLOC: 465
+    Comments: 91
+    Single comments: 91
+    Multi: 76
+    Blank: 128
+    - Comment Stats
+        (C % L): 12%
+        (C % S): 20%
+        (C + M % L): 22%
+app/request.py
+    LOC: 360
+    LLOC: 191
+    SLOC: 222
+    Comments: 39
+    Single comments: 39
+    Multi: 32
+    Blank: 67
+    - Comment Stats
+        (C % L): 11%
+        (C % S): 18%
+        (C + M % L): 20%
+app/routes.py
+    LOC: 733
+    LLOC: 387
+    SLOC: 559
+    Comments: 55
+    Single comments: 53
+    Multi: 0
+    Blank: 121
+    - Comment Stats
+        (C % L): 8%
+        (C % S): 10%
+        (C + M % L): 8%
+test/test_autocomplete.py
+    LOC: 16
+    LLOC: 11
+    SLOC: 12
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 4
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+test/conftest.py
+    LOC: 24
+    LLOC: 15
+    SLOC: 21
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 3
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+test/test_results.py
+    LOC: 167
+    LLOC: 99
+    SLOC: 111
+    Comments: 14
+    Single comments: 14
+    Multi: 0
+    Blank: 42
+    - Comment Stats
+        (C % L): 8%
+        (C % S): 13%
+        (C + M % L): 8%
+test/test_misc.py
+    LOC: 70
+    LLOC: 42
+    SLOC: 43
+    Comments: 8
+    Single comments: 8
+    Multi: 0
+    Blank: 19
+    - Comment Stats
+        (C % L): 11%
+        (C % S): 19%
+        (C + M % L): 11%
+test/__init__.py
+    LOC: 0
+    LLOC: 0
+    SLOC: 0
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 0
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+test/test_routes.py
+    LOC: 91
+    LLOC: 57
+    SLOC: 57
+    Comments: 9
+    Single comments: 9
+    Multi: 0
+    Blank: 25
+    - Comment Stats
+        (C % L): 10%
+        (C % S): 16%
+        (C + M % L): 10%
