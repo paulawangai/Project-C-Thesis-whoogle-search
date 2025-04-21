@@ -11,6 +11,8 @@ import os
 from fp_decorators.pure import pure
 from fp_decorators.immutable import immutable
 
+from fp_decorators.higher_order import higher_order, memoize
+
 from stem import Signal, SocketError
 from stem.connection import AuthenticationFailure
 from stem.control import Controller
@@ -76,8 +78,10 @@ def send_tor_signal(signal: Signal) -> bool:
     return False
 
 
+
 @pure(allow_random=True, ignore_params=['config'])
 @immutable(freeze_input=True)
+@higher_order(enhanced=True)
 def gen_user_agent(config, is_mobile) -> str:
     # Define the Lynx user agent
     LYNX_UA = 'Lynx/2.9.2 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/3.4.0'
@@ -102,6 +106,7 @@ def gen_user_agent(config, is_mobile) -> str:
 
 @pure(ignore_params=['config'])
 @immutable(freeze_input=True)
+@memoize
 def gen_query(query, args, config) -> str:
     param_dict = {key: '' for key in VALID_PARAMS}
 
