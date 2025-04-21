@@ -1,0 +1,7 @@
+app/utils/bangs.py:23:4: W0603: Using the global statement (global-statement)
+app/utils/bangs.py:101:4: W0602: Using global for 'bangs_dict' but no assignment is done (global-variable-not-assigned)
+app/utils/bangs.py:116:4: W0602: Using global for 'bangs_dict' but no assignment is done (global-variable-not-assigned)
+app/request.py:16:0: C0411: third party import "stem.Signal" should be placed before first party imports "app.models.config.Config", "app.utils.misc.read_config_bool", "fp_decorators.pure.pure", "fp_decorators.immutable.immutable", "fp_decorators.higher_order.higher_order"  (wrong-import-order)
+app/request.py:17:0: C0411: third party import "stem.connection.AuthenticationFailure" should be placed before first party imports "app.models.config.Config", "app.utils.misc.read_config_bool", "fp_decorators.pure.pure", "fp_decorators.immutable.immutable", "fp_decorators.higher_order.higher_order"  (wrong-import-order)
+app/request.py:18:0: C0411: third party import "stem.control.Controller" should be placed before first party imports "app.models.config.Config", "app.utils.misc.read_config_bool", "fp_decorators.pure.pure", "fp_decorators.immutable.immutable", "fp_decorators.higher_order.higher_order"  (wrong-import-order)
+app/request.py:19:0: C0411: third party import "stem.connection.authenticate_cookie" should be placed before first party imports "app.models.config.Config", "app.utils.misc.read_config_bool", "fp_decorators.pure.pure", "fp_decorators.immutable.immutable", "fp_decorators.higher_order.higher_order"  (wrong-import-order)
