@@ -1,0 +1,7 @@
+app/utils/bangs.py:23:4: W0603: Using the global statement (global-statement)
+app/utils/bangs.py:101:4: W0602: Using global for 'bangs_dict' but no assignment is done (global-variable-not-assigned)
+app/utils/bangs.py:116:4: W0602: Using global for 'bangs_dict' but no assignment is done (global-variable-not-assigned)
+app/request.py:12:0: C0411: third party import "stem.Signal" should be placed before first party imports "app.models.config.Config", "app.utils.misc.read_config_bool", "fp_decorators.immutable.immutable"  (wrong-import-order)
+app/request.py:13:0: C0411: third party import "stem.connection.AuthenticationFailure" should be placed before first party imports "app.models.config.Config", "app.utils.misc.read_config_bool", "fp_decorators.immutable.immutable"  (wrong-import-order)
+app/request.py:14:0: C0411: third party import "stem.control.Controller" should be placed before first party imports "app.models.config.Config", "app.utils.misc.read_config_bool", "fp_decorators.immutable.immutable"  (wrong-import-order)
+app/request.py:15:0: C0411: third party import "stem.connection.authenticate_cookie" should be placed before first party imports "app.models.config.Config", "app.utils.misc.read_config_bool", "fp_decorators.immutable.immutable"  (wrong-import-order)
