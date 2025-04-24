@@ -1,15 +1,15 @@
-Average LOC: 144.9298245614035
+Average LOC: 144.94736842105263
 Average LLOC: N/A
 Average SLOC: N/A
 Average Comments: 25.071428571428573
 Average Multi: 33.4
-Average Blank: 38.89473684210526
+Average Blank: 38.94736842105263
 Average Single comments: 24.285714285714285
 Average Comment Density: N/A
 Total Files Analyzed: 66
 Files With Code: 57
-Total LOC: 8261
+Total LOC: 8262
 Total LLOC: 0
 Total SLOC: 0
 Total Comments: 351
-Total Blank Lines: 739
+Total Blank Lines: 740
